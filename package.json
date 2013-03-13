@@ -6,7 +6,7 @@
     "express": "2.5.2",
     "node-static": "0.6.7"
   },
-  "subdomain": "arnesen.smarteklokker",
+  "subdomain": "arnesen.presentations.smarteklokker",
   "scripts": {
     "start": "app.js"
   },
