@@ -1,0 +1,16 @@
+{
+  "name": "static-presentations",
+  "version": "0.0.1-1",
+  "private": "false",
+  "dependencies": {
+    "express": "2.5.2",
+    "node-static": "0.6.7"
+  },
+  "subdomain": "arnesen.smarteklokker",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
