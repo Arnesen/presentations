@@ -1,12 +1,12 @@
 {
-  "name": "static-smarteklokker",
+  "name": "static-presentations",
   "version": "0.0.1-2",
   "private": "false",
   "dependencies": {
     "express": "2.5.2",
     "node-static": "0.6.7"
   },
-  "subdomain": "smarteklokker",
+  "subdomain": "arnesen.presentations.smarteklokker",
   "scripts": {
     "start": "app.js"
   },
