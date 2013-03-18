@@ -1,7 +1,7 @@
 {
   "name": "static-presentations",
-  "version": "0.0.1-11",
-  "private": "false",
+  "version": "0.0.1-12",
+  "private": "true",
   "dependencies": {
     "express": "2.5.2",
     "node-static": "0.6.7"
