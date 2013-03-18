@@ -70,18 +70,33 @@
 					</aside>
 				</section>
 
+				
 				<section>
 					<h2>Enkeltstående</h2>
-					<h3>med platform</h3>
-
-					<img class="fragment" src="images/swapwatch.jpg"/>
+					<ul>
+						<li class="fragment">GPS klokker</li>
+						<li class="fragment">mutewatch</li>
+						<li class="fragment">iPod nano</li>
+						<img class="fragment" src="images/mutewatch.jpg"/>
+					</ul>
 					<aside class="notes">
-						SWAP http://www.s-w-a-p.co.uk/models/swap-active/,  MOTOACTV
+						Er det egentlig en smartwatch?
 					</aside>
 				</section>
-
 				<section>
-					<h2>kompis med SDK</h2>
+					<h2>tilkoblet</h2>
+					<ul>
+						<li class="fragment">COOKOO</li>
+						<img class="fragment" src="http://cookoowatch.com/img/new_img_20121211/20130313_homepage-03.jpg"/>
+					</ul>
+					<aside class="notes">
+						Min favoritt
+						Det eg synest er spennende
+						virker mest "nyttig"
+					</aside>
+				</section>
+				<section>
+					<h2>tilkoblet med SDK</h2>
 					<ul>
 						<li class="fragment">Sony Smartwatch</li>
 						<li class="fragment">MetaWatch</li>
@@ -96,19 +111,6 @@
 				</section>
 
 
-				<section>
-					<h2>Enkeltstående</h2>
-					<h3>uten platform</h3>
-					<ul>
-						<li class="fragment">GPS klokker</li>
-						<li class="fragment">mutewatch</li>
-						<li class="fragment">iPod nano</li>
-						<img class="fragment" src="images/mutewatch.jpg"/>
-					</ul>
-					<aside class="notes">
-						Er det egentlig en smartwatch?
-					</aside>
-				</section>
 
 				<section>
 					<h2>Funksjoner</h2>
@@ -116,6 +118,7 @@
 						<li class="fragment">Varsler</li>
 						<li class="fragment">Quick response</li>
 						<li class="fragment">Musikk</li>
+						<li class="fragment">Gått fra telefon/bag</li>
 					</ul>
 
 					<aside class="notes">
@@ -209,7 +212,10 @@ multiplex: {
 				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'socket.io/socket.io.js', async: true },
+        { src: 'plugin/multiplex/client.js', async: true },
+        { src: 'plugin/multiplex/master.js', async: true }
 					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 					]
